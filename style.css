@@ -277,6 +277,57 @@ a {
   color: white;
 }
 
+.team-cards {
+  padding: 8rem 0 ;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.team-cards__member-wrapper {
+  width: 9.5rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.491);
+}
+
+.team-cards__image {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.team-cards__member {
+  display: flex;
+  justify-content: center;
+}
+
+.team-cards__member-info {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.team-cards__member-name-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.team-cards__member-role-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.team-cards__member-role {
+  font-size: 9px;
+}
+
+.team-cards__icons-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
 @media (max-width:748px) {
   .header {
     display: flex;
@@ -387,6 +438,13 @@ a {
     border-top: rgba(128, 128, 128, 0.174) 2px solid;
   }
   
+  .team-cards {
+    padding: 0 ;
+   overflow: scroll;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 2rem;
+  }
 
   .contact {
     background-color: #FFF5F0;
