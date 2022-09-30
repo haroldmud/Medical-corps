@@ -11,9 +11,9 @@
 - Frameworks
 - Technologies used
 
-## Live Demo (if available)
+## Deployment link (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Deployment link](https://haroldmud.github.io/Medical-corps/)
 
 
 ## Getting Started
