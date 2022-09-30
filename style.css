@@ -432,9 +432,9 @@ a {
 
   .team__content-wrapper {
     width: 99%;
-    margin-top: 2rem;
+    margin-top: 3rem;
     height: fit-content;
-    padding-left: 12px;
+    margin-left: 10px;
     border-top: rgba(128, 128, 128, 0.174) 2px solid;
   }
   
