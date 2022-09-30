@@ -13,6 +13,7 @@ a {
   display: flex;
   justify-content: center;   
   color: black;
+  padding-top: 1rem;
   background-color: #FFF5F0;
 }
 
