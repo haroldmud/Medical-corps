@@ -434,7 +434,7 @@ a {
     width: 99%;
     margin-top: 2rem;
     height: fit-content;
-    margin-left: 2px;
+    padding-left: 12px;
     border-top: rgba(128, 128, 128, 0.174) 2px solid;
   }
   
