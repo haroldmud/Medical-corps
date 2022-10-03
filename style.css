@@ -178,6 +178,7 @@ a {
   position: relative;
   width: 10rem;
   height: 2rem;
+  
 }
 
 .experts__link {
@@ -425,8 +426,9 @@ a {
     width: 74%;
   }
   
-  .expert__link-wrapper {
+  .experts__link-wrapper {
     position: relative;
+    border: red solid 1px;
     width: 10rem;
     height: 2rem;
   }
