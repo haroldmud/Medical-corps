@@ -4,11 +4,6 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
 .header {
   display: flex;
   justify-content: center;   
@@ -18,6 +13,8 @@ a {
 }
 
 .header__links-container {
+  text-decoration: none;
+  color: black;
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -31,6 +28,8 @@ a {
 }
 
 .header__main-links {
+  text-decoration: none;
+  color: black;
     height: fit-content;
     align-items: center;
     margin: auto 0;
@@ -38,6 +37,8 @@ a {
 }
 
 .header__signing-links {
+  text-decoration: none;
+  color: black;
     height: fit-content;
     align-items: center;
     width: 40%;
@@ -48,6 +49,7 @@ a {
 }
 
 .header__link {
+  text-decoration: none;
   color: black;
   margin-left: 1rem;
 }
@@ -70,6 +72,7 @@ a {
 }
 
 .header__button-link {
+  text-decoration: none;
   color: white;
   font-size: 12px;
 }
@@ -127,6 +130,7 @@ a {
 }
 
 .home-section__btn-link {
+  text-decoration: none;
   color: #1BA0AB;
   font-size: 12.7px;
 }
@@ -175,12 +179,15 @@ a {
 }
 
 .experts__link-wrapper {
+  text-decoration: none;
+  color: black;
   position: relative;
   width: 10rem;
   height: 2rem;
 }
 
 .experts__link {
+  text-decoration: none;
   position: absolute; 
   font-weight: bold;
   font-size: small;
@@ -337,6 +344,8 @@ a {
   }
   
   .header__links-container {
+    text-decoration: none;
+  color: black;
       display: flex;
       justify-content: space-between;
       margin-left: 2%;
@@ -351,6 +360,8 @@ a {
   }
   
   .header__main-links {
+    text-decoration: none;
+  color: black;
       display: none;
       height: fit-content;
       align-items: center;
@@ -359,10 +370,13 @@ a {
   }
   
   .header__signing-links {
+    text-decoration: none;
+  color: black;
     display: none;
   }
   
   .header__link {
+    text-decoration: none;
     color: black;
     margin-left: 1rem;
   }
@@ -427,7 +441,8 @@ a {
   
   .experts__link-wrapper {
     position: relative;
-    border: red solid 1px;
+    text-decoration: none;
+  color: black;
     width: 10rem;
     height: 2rem;
   }
